@@ -261,9 +261,9 @@
                 <!-- recheck scope, if so enabled... -->
                 <!--<ref bean="preselector"/>-->
                 <!-- ...then verify or trigger prerequisite URIs fetched, allow crawling... -->
-                <ref bean="preconditions"/>
+                <!-- <ref bean="preconditions"/> -->
                 <!-- ...fetch if DNS URI... -->
-                <ref bean="fetchDns"/> 
+                <!-- <ref bean="fetchDns"/> -->
                 <!-- ...fetch if HTTP URI... -->
                 <ref bean="fetchHttp"/>
                 <!-- ...extract oulinks from HTTP headers... -->
